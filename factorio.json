@@ -19,7 +19,7 @@
                         "min_size": 5242880
                     }
                 }
-		    }
+            }
         },
         "description": "Factorio headless server",
         "website": "https://factorio.com",
