@@ -23,6 +23,6 @@
         },
         "description": "Factorio headless server",
         "website": "https://factorio.com",
-		"version": "0.0.1"
+        "version": "0.0.1"
     }
 }
