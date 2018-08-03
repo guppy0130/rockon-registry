@@ -1,0 +1,28 @@
+{
+    "Factorio": {
+        "containers": {
+            "Factorio": {
+                "image": "dtandersen/factorio",
+                "launch_order": 1,
+                "ports": {
+                    "34197": {
+                        "description": "TCP Port for Factorio",
+                        "host_default": 34197,
+                        "label": "Factorio TCP port",
+                        "protocol": "tcp"
+                    }
+                },
+                "volumes": {
+                    "/factorio": {
+                        "description": "Shares for Factorio saves",
+                        "label": "Factorio Saves",
+                        "min_size": 5242880
+                    }
+                }
+		    }
+        },
+        "description": "Factorio headless server",
+        "website": "https://factorio.com",
+		"version": "0.0.1"
+    }
+}
