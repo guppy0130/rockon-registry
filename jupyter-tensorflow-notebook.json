@@ -23,7 +23,7 @@
             }
         },
         "description": "Jupyterlab notebook with Python deep learning libraries",
-		"more_info": "Comes with tensorflow and keras",
+        "more_info": "Comes with tensorflow and keras",
         "version": "0.0.1",
         "website": "http://jupyter.org"
     }
