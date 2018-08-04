@@ -23,7 +23,7 @@
             }
         },
         "description": "Jupyterlab notebook with Python deep learning libraries",
-        "more_info": "Comes with tensorflow and keras. Please view docker logs to obtain token for initial sign in, or <a href="https://github.com/jupyter/notebook/issues/2254">view this Github thread for alternatives.</a>",
+        "more_info": "Comes with tensorflow and keras. Please view docker logs to obtain token for initial sign in, or <a href=\"https://github.com/jupyter/notebook/issues/2254\">view this Github thread for alternatives.</a>",
         "version": "0.0.1",
         "website": "http://jupyter.org"
     }
