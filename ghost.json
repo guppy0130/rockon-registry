@@ -3,6 +3,7 @@
         "containers": {
             "ghost": {
                 "image": "ghost",
+                "tag": "alpine",
                 "launch_order": 1,
                 "ports": {
                     "2368": {
@@ -22,7 +23,7 @@
                 }
             }
         },
-        "description": "ghost: A publishing platform for professional bloggers",
+        "description": "ghost: A publishing platform for professional bloggers on Alpine for size",
         "volume_add_support": false,
         "more_info": "navigate to the ui link for the admin site or go to the base url for the public facing site",
         "ui": {
