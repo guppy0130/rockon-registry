@@ -19,6 +19,28 @@
                         "label": "Blog Storage",
                         "min_size": "1073741824"
                     }
+                },
+                "environment": {
+                    "url": {
+                        "description": "URL the blog is at. Leave this as localhost if unsure",
+                        "label": "Blog URL"
+                    },
+                    "mail__transport": {
+                        "description": "Email service",
+                        "label": "SMTP if Mailgun/SES, DIRECT otherwise",
+                    },
+                    "mail__options__service": {
+                        "description": "Mailgun or SES",
+                        "label": "Service name",
+                    },
+                    "mail__options__auth__user": {
+                        "description": "Email service username",
+                        "label": "Email service username",
+                    },
+                    "mail__options__auth__pass": {
+                        "description": "Email service password",
+                        "label": "Email service password",
+                    }
                 }
             }
         },
