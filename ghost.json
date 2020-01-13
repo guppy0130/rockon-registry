@@ -27,19 +27,19 @@
                     },
                     "mail__transport": {
                         "description": "Email service",
-                        "label": "SMTP if Mailgun/SES, DIRECT otherwise",
+                        "label": "SMTP if Mailgun/SES, DIRECT otherwise"
                     },
                     "mail__options__service": {
                         "description": "Mailgun or SES",
-                        "label": "Service name",
+                        "label": "Service name"
                     },
                     "mail__options__auth__user": {
                         "description": "Email service username",
-                        "label": "Email service username",
+                        "label": "Email service username"
                     },
                     "mail__options__auth__pass": {
                         "description": "Email service password",
-                        "label": "Email service password",
+                        "label": "Email service password"
                     }
                 }
             }
