@@ -2,7 +2,7 @@
     "Factorio": {
         "containers": {
             "Factorio": {
-                "image": "dtandersen/factorio",
+                "image": "factoriotools/factorio",
                 "launch_order": 1,
                 "ports": {
                     "34197": {
@@ -23,6 +23,6 @@
         },
         "description": "Factorio headless server",
         "website": "https://factorio.com",
-        "version": "0.0.1"
+        "version": "0.0.2"
     }
 }
